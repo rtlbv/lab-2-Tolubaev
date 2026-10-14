@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header {
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+header a,
+.back-link {
+    color: #1c5aa6;
+}
+
+main {
+    width: 500px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+form {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+label,
+form p {
+    display: block;
+    margin: 12px 0 6px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+}
+
+.choice {
+    display: block;
+    margin: 7px 0;
+}
+
+.consent,
+.remember {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 9px 18px;
+    cursor: pointer;
+}
+
+.auth-page {
+    min-height: 100vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 350px;
+    max-width: 90%;
+}
+
+.login-form h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.back-link {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+}
